@@ -33,7 +33,7 @@ get_clean_data <- function(filename) {
         
 }
 
-top_opps_AE <- function(dataset, port = "TCR52", num = 10) {
+top_opps_AE <- function(dataset, port, num = 10) {
         ## for given dataframe called 'dataset', return a new dataframe  
         ## which consists of the top 'num' opps for the AE 
         ## identified by portfolio code 'port'. Num defaults to 10. The 
